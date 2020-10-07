@@ -9,5 +9,12 @@ def square_array(array)
   array
 end
 
-#square_array([1,2,3])
+num = [1,2,3]
+
+def collect(array)
+  enu1 = array.collect {|x| x * 10}
+  puts enu1
+end
+
+collect(num)
 
